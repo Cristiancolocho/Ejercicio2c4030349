@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2c4030349.Dos"
+             Title="Dos">
+    <VerticalStackLayout>
+        <Label 
+            Text="Dos Numeros!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry  x:Name="n1" Placeholder="Introduce un numero"/>
+        <Entry  x:Name="n2" Placeholder="Introduce un numero"/>
+        <Entry  x:Name="Res" Placeholder="Resultado"/>
+
+        <Button Text="Resultado" Clicked="Button_Clicked_1"/>
+    </VerticalStackLayout>
+</ContentPage>
